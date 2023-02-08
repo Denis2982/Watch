@@ -1,0 +1,161 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-size:inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 50px;
+    color: #161515;
+    margin: 0;
+}
+.container {
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    background: #F8F8F8;
+    min-height: 100vh;
+}
+.content {
+    padding-left: 133px;
+    padding-top: 100px;
+}
+.text {
+    font-size: 24px;
+    line-height: 45px;
+    margin-bottom: 53px;
+}
+.title {
+    font-size: 250px;
+    line-height: 230px;
+    color: #272727;
+    margin-bottom: 43px;
+}
+.subtitle {
+    max-width: 575px;
+    margin-bottom: 61px;
+    margin-right: 82px;
+}
+.button-price {
+    display: flex;
+    margin-bottom: 211px;
+}
+.buy-btn {
+    display:inline-block;
+    text-decoration: none;
+    background: #161515;
+    padding: 26px 73px;
+    color:#ffffff;
+    line-height: 29px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buy-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(191, 194, 197, 0.7);
+}
+.buy-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px rgba(191, 194, 197, 1);
+}
+.price {
+    line-height: 60px;
+    color: #272727;
+    padding: 13px 28px 5px;
+    background-color: #fff;
+}
+.main {
+    max-width: 532px;
+    margin: 0 auto;
+    text-align: center;        
+}
+.main-subtitle {
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+.main-title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81px;
+    color: #000000;
+    margin-bottom: 84px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 85px;
+}
+.card-img {   
+    height: 630px; 
+    margin-bottom: 67px;
+    background: #F8F8F8;
+}
+.son {    
+    width: 417px; 
+    position: relative;   
+}
+.img-son {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+.sw {
+    width: 496px;
+    position: relative;
+}
+.img-sw {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-model {
+    font-weight: 400;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.description-title {
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: capitalize;
+    position: relative;
+    margin: 110px 0 58px;
+}
+.description-title::after {
+    content: '';
+    width: 178px;
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    top: 46px;
+    margin-top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.description-text {
+    font-size: 24px;
+    line-height: 41px;
+    margin-bottom: 142px;
+}
+.description-text a {
+    color: #BB8B5D;
+}
